@@ -8,10 +8,11 @@ const Header = () => {
         <div className="flex items-center space-x-4">
           {/* Profile Image */}
           <img
-            src="/src/assets/Nipun.jpeg" 
-            alt="Nipun Vishwa Profile" 
-            className="w-14 h-14 rounded-full border-2 border-cyan-500 shadow-lg" 
-          />
+  src="/src/assets/Nipun.jpeg"  // Uppercase 'N'
+  alt="Nipun Vishwa Profile"
+  className="w-14 h-14 rounded-full border-2 border-cyan-500 shadow-lg"
+/>
+
           <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-cyan-300">
             Nipun Vishwa
           </h1>
