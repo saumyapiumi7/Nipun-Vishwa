@@ -1,4 +1,5 @@
 import { FaHome, FaBriefcase, FaProjectDiagram, FaEnvelope } from 'react-icons/fa';
+import NipunProfile from '../assets/Nipun.jpeg';
 
 const Header = () => {
   return (
@@ -8,11 +9,10 @@ const Header = () => {
         <div className="flex items-center space-x-4">
           {/* Profile Image */}
           <img
-  src="/src/assets/Nipun.jpeg"  // Uppercase 'N'
-  alt="Nipun Vishwa Profile"
-  className="w-14 h-14 rounded-full border-2 border-cyan-500 shadow-lg"
-/>
-
+            src={NipunProfile}  // Use the imported image
+            alt="Nipun Vishwa Profile"
+            className="w-14 h-14 rounded-full border-2 border-cyan-500 shadow-lg"
+          />
           <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-cyan-300">
             Nipun Vishwa
           </h1>
@@ -49,10 +49,10 @@ const Header = () => {
           </li>
           <li>
             <a 
-              href="#education"  // New Education link added here
+              href="#education" 
               className="flex items-center hover:text-cyan-500 transition duration-300 relative group"
             >
-              <FaBriefcase className="mr-1" size={18} /> Education  {/* You can choose a different icon if needed */}
+              <FaBriefcase className="mr-1" size={18} /> Education
               <span className="absolute left-0 bottom-0 h-0.5 w-full bg-cyan-500 transition-all duration-300 transform scale-x-0 group-hover:scale-x-100" />
             </a>
           </li>
