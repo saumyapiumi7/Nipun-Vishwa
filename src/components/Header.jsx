@@ -3,8 +3,8 @@ import NipunProfile from '../assets/Nipun.jpeg';
 
 const Header = () => {
   return (
-    <header className="bg-navyBlue text-white py-4 px-6 shadow-md">
-      <nav className="container mx-auto flex flex-col md:flex-row justify-between items-center">
+    <header className="bg-navyBlue text-white py-4 shadow-md">
+      <nav className="container mx-auto flex flex-col md:flex-row justify-between items-center px-6">
         {/* Logo and Accountant Name */}
         <div className="flex items-center space-x-4">
           {/* Profile Image */}
@@ -19,7 +19,7 @@ const Header = () => {
         </div>
 
         {/* Navigation */}
-        <ul className="flex space-x-4 md:space-x-6 mt-4 md:mt-0 uppercase font-medium text-xs sm:text-sm md:text-lg lg:text-xl">
+        <ul className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-4 mt-4 md:mt-0 uppercase font-medium text-xs sm:text-sm md:text-lg lg:text-xl">
           <li>
             <a
               href="#about"

@@ -40,3 +40,24 @@
 .read-the-docs {
   color: #888;
 }
+
+@media (max-width: 768px) {
+  /* Hide the navigation list initially */
+  .menu-list {
+    display: none; /* Hide menu list by default on small screens */
+  }
+  
+  /* Show the menu button */
+  .menu-button {
+    display: block; /* Show menu button on small screens */
+  }
+}
+
+@media (min-width: 769px) {
+  .menu-button {
+    display: none; /* Hide menu button on larger screens */
+  }
+  .menu-list {
+    display: flex; /* Show the menu list on larger screens */
+  }
+}

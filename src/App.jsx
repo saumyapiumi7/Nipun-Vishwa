@@ -14,8 +14,8 @@ function App() {
       <Hero />
       <About />
       <Skills />
-      <Education /> {/* Add the Education component here */}
-      <Experience />
+      <Experience /> {/* Add the Education component here */}
+      < Education/>
       <Contact />
     </div>
   );
