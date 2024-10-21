@@ -8,7 +8,7 @@ const Header = () => {
         <div className="flex items-center space-x-4">
           {/* Profile Image */}
           <img
-            src="/src/Nipun.jpeg" 
+            src="/src/assets/Nipun.jpeg" 
             alt="Nipun Vishwa Profile" 
             className="w-14 h-14 rounded-full border-2 border-cyan-500 shadow-lg" 
           />
