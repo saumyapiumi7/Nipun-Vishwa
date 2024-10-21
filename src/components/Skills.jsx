@@ -25,7 +25,7 @@ const Skills = () => {
 
     return (
         <section id="skills" className="bg-white text-darkGray py-12 px-6">
-            <h2 className="text-4xl font-bold text-navyBlue text-center mb-8">Skills & Expertise</h2>
+            <h2 className="text-5xl font-extrabold text-navyBlue text-center mb-10">Skills & Expertise</h2>
             <div className="flex flex-wrap justify-center gap-8">
                 {skills.map(skill => (
                     <div 

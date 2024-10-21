@@ -9,20 +9,20 @@ const Header = () => {
         <div className="flex items-center space-x-4">
           {/* Profile Image */}
           <img
-            src={NipunProfile}  // Use the imported image
+            src={NipunProfile} // Use the imported image
             alt="Nipun Vishwa Profile"
             className="w-14 h-14 rounded-full border-2 border-cyan-500 shadow-lg"
           />
-          <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-cyan-300">
+          <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-cyan-300">
             Nipun Vishwa
           </h1>
         </div>
 
         {/* Navigation */}
-        <ul className="flex space-x-4 md:space-x-6 mt-4 md:mt-0 uppercase font-medium text-sm md:text-lg lg:text-xl">
+        <ul className="flex space-x-4 md:space-x-6 mt-4 md:mt-0 uppercase font-medium text-xs sm:text-sm md:text-lg lg:text-xl">
           <li>
-            <a 
-              href="#about" 
+            <a
+              href="#about"
               className="flex items-center hover:text-cyan-500 transition duration-300 relative group"
             >
               <FaHome className="mr-1" size={18} /> About
@@ -30,8 +30,8 @@ const Header = () => {
             </a>
           </li>
           <li>
-            <a 
-              href="#skills" 
+            <a
+              href="#skills"
               className="flex items-center hover:text-cyan-500 transition duration-300 relative group"
             >
               <FaBriefcase className="mr-1" size={18} /> Skills
@@ -39,8 +39,8 @@ const Header = () => {
             </a>
           </li>
           <li>
-            <a 
-              href="#experience" 
+            <a
+              href="#experience"
               className="flex items-center hover:text-cyan-500 transition duration-300 relative group"
             >
               <FaProjectDiagram className="mr-1" size={18} /> Experience
@@ -48,8 +48,8 @@ const Header = () => {
             </a>
           </li>
           <li>
-            <a 
-              href="#education" 
+            <a
+              href="#education"
               className="flex items-center hover:text-cyan-500 transition duration-300 relative group"
             >
               <FaBriefcase className="mr-1" size={18} /> Education
@@ -57,8 +57,8 @@ const Header = () => {
             </a>
           </li>
           <li>
-            <a 
-              href="#contact" 
+            <a
+              href="#contact"
               className="flex items-center hover:text-cyan-500 transition duration-300 relative group"
             >
               <FaEnvelope className="mr-1" size={18} /> Contacts
@@ -69,6 +69,6 @@ const Header = () => {
       </nav>
     </header>
   );
-}
+};
 
 export default Header;
