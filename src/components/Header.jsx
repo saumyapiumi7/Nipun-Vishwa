@@ -1,4 +1,4 @@
-import { FaHome, FaBriefcase, FaProjectDiagram, FaEnvelope, FaBars, FaTimes } from 'react-icons/fa';
+import { FaHome, FaBriefcase, FaProjectDiagram, FaEnvelope, FaBars } from 'react-icons/fa';
 import NipunProfile from '../assets/Nipun.jpeg';
 import { useState } from 'react';
 
@@ -31,7 +31,7 @@ const Header = () => {
             onClick={toggleMenu}
             className="text-cyan-300 focus:outline-none text-3xl"
           >
-            {isMenuOpen ? <FaTimes /> : <FaBars />}
+            <FaBars />
           </button>
         </div>
 
