@@ -9,7 +9,7 @@ const Contact = () => {
                 {/* Contact Card */}
                 <div className="flex items-center w-full bg-white shadow-md rounded-lg p-5 transition-transform transform hover:scale-105">
                     <FaPhone className="text-navyBlue mr-4 text-3xl" />
-                    <span className="text-lg font-medium">Call & WhatsApp: <span className="font-bold">+9471-5792592</span></span>
+                    <span className="text-lg font-medium">Call & WhatsApp: <span className="font-bold"> +94715792592</span></span>
                 </div>
                 <div className="flex items-center w-full bg-white shadow-md rounded-lg p-5 transition-transform transform hover:scale-105">
                     <FaEnvelope className="text-navyBlue mr-4 text-3xl" /> {/* Same size for consistency */}
