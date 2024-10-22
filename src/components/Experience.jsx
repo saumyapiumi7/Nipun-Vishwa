@@ -3,7 +3,7 @@ import { FaUsers, FaChalkboardTeacher } from 'react-icons/fa';
 const Experience = () => {
     return (
         <section id="experience" className="bg-lightBlue text-darkGray py-12 px-6">
-            <h2 className="text-5xl font-extrabold text-navyBlue text-center mb-10">
+            <h2 className="text-4xl font-extrabold text-navyBlue text-center mb-10">
                 Professional Experience
             </h2>
             <div className="mt-10 space-y-10 flex flex-col items-center">

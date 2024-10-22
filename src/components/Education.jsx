@@ -2,7 +2,7 @@ const Education = () => {
     return (
         <section id="education" className="py-12 px-6">
             <div className="text-center mb-10">
-                <h2 className="text-5xl font-extrabold text-navyBlue">Education Qualification</h2>
+                <h2 className="text-4xl font-extrabold text-navyBlue">Education Qualification</h2>
             </div>
             
             <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">

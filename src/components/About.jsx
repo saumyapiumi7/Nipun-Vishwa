@@ -1,7 +1,7 @@
 const About = () => {
     return (
         <section id="about" className="bg-lightGray text-darkGray py-12 px-6 mb-12">
-            <h2 className="text-5xl font-extrabold text-navyBlue text-center mb-10">About Me</h2>
+            <h2 className="text-4xl font-extrabold text-navyBlue text-center mb-10">About Me</h2>
             <div className="mt-4 flex flex-col md:flex-row items-start">
                 <div className="flex-1 md:mr-8">
                     {/* White Box for About Me Text with transition effects */}
