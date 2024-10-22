@@ -18,7 +18,7 @@ const Experience = () => {
                             Finance Trainer
                         </p>
                         <p className="text-1xl text-gray-600"> {/* Increased font size */}
-                            June 2024 - Present
+                            Jun 2024 - Present
                         </p>
                         <p className="mt-2 text-gray-700 text-1xl"> {/* Increased font size */}
                             Providing training in finance-related topics to improve employee knowledge and skills.
@@ -37,7 +37,7 @@ const Experience = () => {
                             Management Trainer
                         </p>
                         <p className="text-1xl text-gray-600"> {/* Increased font size */}
-                            September 2018 - January 2019
+                            Sep 2018 - Jan 2019
                         </p>
                         <p className="mt-2 text-gray-700 text-1xl"> {/* Increased font size */}
                             Conducted training sessions to enhance management skills among staff.
