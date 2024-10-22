@@ -42,11 +42,7 @@ const Contact = () => {
                     <span className="text-lg font-medium">Address: <span className="font-bold">No 313, Kurunawagama, Wariyapola</span></span>
                 </div>
             </div>
-            <footer className="mt-12 text-center text-gray-600">
-                <p className="text-sm">
-                    &copy; 2024 Saumya Herath. All rights reserved.
-                </p>
-            </footer>
+        
         </section>
     );
 }
