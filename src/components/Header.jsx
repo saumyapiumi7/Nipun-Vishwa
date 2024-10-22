@@ -27,12 +27,14 @@ const Header = () => {
 
         {/* Menu Button for All Screens */}
         <div className="flex items-center md:hidden">
-          <button
-            onClick={toggleMenu}
-            className="text-cyan-300 focus:outline-none text-3xl"
-          >
-            <FaBars />
-          </button>
+          {!isMenuOpen && (
+            <button
+              onClick={toggleMenu}
+              className="text-cyan-300 focus:outline-none text-3xl"
+            >
+              <FaBars />
+            </button>
+          )}
         </div>
 
         {/* Navigation Links */}
