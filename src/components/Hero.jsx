@@ -1,11 +1,12 @@
 // src/components/Hero.jsx
 const Hero = () => {
     return (
-        <section className="bg-[url('/path-to-your-image.jpg')] bg-cover bg-center text-center py-20">
-            <div className="text-gray-800"> {/* Updated text color */}
-                <h2 className="text-4xl md:text-5xl font-semibold">Hi, I’m Nipun Vishwa</h2> {/* Increased font size and weight */}
-                <p className="mt-4 text-lg md:text-xl font-medium">Finance Trainer | Undergraduate | Aspiring Chartered Accountant</p> {/* Updated font weight */}
-                <p className="mt-2 text-base md:text-lg">
+        <section className="bg-[url('https://wallpaperaccess.com/full/1267556.jpg')] bg-cover bg-center text-center py-20 relative">
+            <div className="absolute inset-0 bg-black opacity-40"></div> {/* Overlay for better text visibility */}
+            <div className="relative text-white"> {/* Change text color to white */}
+                <h2 className="text-4xl md:text-5xl font-bold shadow-lg">Hi, I’m Nipun Vishwa</h2> {/* Bold font with shadow */}
+                <p className="mt-4 text-lg md:text-xl font-semibold shadow-lg">Finance Trainer | Undergraduate | Aspiring Chartered Accountant</p> {/* Bold font with shadow */}
+                <p className="mt-2 text-base md:text-lg shadow-lg">
                     Dedicated to harnessing financial acumen and training expertise to enhance organizational performance and drive success.
                 </p>
                 <a href="#contact">

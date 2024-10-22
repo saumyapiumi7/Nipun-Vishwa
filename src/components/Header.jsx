@@ -20,7 +20,7 @@ const Header = () => {
             alt="Nipun Vishwa Profile"
             className="w-16 h-16 rounded-full border-2 border-cyan-500 shadow-xl"
           />
-          <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-cyan-300 drop-shadow-lg">
+          <h1 className="text-3xl font-bold sm:text-4xl md:text-5xl drop-shadow-lg">
             Nipun Vishwa
           </h1>
         </div>
