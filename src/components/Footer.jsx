@@ -11,8 +11,9 @@ const Footer = () => {
                 <div className="text-sm mt-1 flex justify-center items-center">
                     <p className="mr-2">Contact:</p>
                     <a href="mailto:saumyapiumi7@gmail.com" className="text-blue-500">saumyapiumi7@gmail.com</a>
-                    <p className="mx-2">|</p>
-                    <p>+9470 311 3226</p>
+                </div>
+                <div>
+                <p>+9470 311 3226</p>
                 </div>
             </div>
         </footer>
