@@ -31,7 +31,7 @@ const Experience = () => {
                     <FaChalkboardTeacher className="text-navyBlue text-3xl mr-4" />
                     <div>
                         <h3 className="text-2xl font-bold text-navyBlue"> {/* Increased font size */}
-                            Trendywear (PVT) LTD
+                            Trendywear (Pvt) Ltd
                         </h3>
                         <p className="text-xl font-medium mt-1 text-gray-800"> {/* Increased font size */}
                             Management Trainer

@@ -9,11 +9,11 @@ const Contact = () => {
                 {/* Contact Card */}
                 <div className="flex items-center w-full bg-white shadow-md rounded-lg p-5 transition-transform transform hover:scale-105">
                     <FaPhone className="text-navyBlue mr-4 text-3xl" />
-                    <span className="text-lg font-medium">Call & WhatsApp: <span className="font-bold"> +94715792592</span></span>
+                    <span className="text-l font-medium">Call & WhatsApp: <span className="font-bold"> +94715792592</span></span>
                 </div>
                 <div className="flex items-center w-full bg-white shadow-md rounded-lg p-5 transition-transform transform hover:scale-105">
                     <FaEnvelope className="text-navyBlue mr-4 text-3xl" /> {/* Same size for consistency */}
-                    <span className="text-lg font-medium">
+                    <span className="text-l font-medium">
                         Email: 
                         <a 
                             href="mailto:nipun98v@gmail.com" 
@@ -25,7 +25,7 @@ const Contact = () => {
                 </div>
                 <div className="flex items-center w-full bg-white shadow-md rounded-lg p-5 transition-transform transform hover:scale-105">
                     <FaLinkedin className="text-navyBlue mr-4 text-3xl" />
-                    <span className="text-lg font-medium">
+                    <span className="text-l font-medium">
                         LinkedIn: 
                         <a 
                             href="https://www.linkedin.com/in/nipun-vishwa-2b33652ab" 
@@ -39,7 +39,7 @@ const Contact = () => {
                 </div>
                 <div className="flex items-center w-full bg-white shadow-md rounded-lg p-5 transition-transform transform hover:scale-105">
                     <FaMapMarkerAlt className="text-navyBlue mr-4 text-3xl" />
-                    <span className="text-lg font-medium">Address: <span className="font-bold">No 313, Kurunawagama, Wariyapola</span></span>
+                    <span className="text-l font-medium">Address: <span className="font-bold">No 313, Kurunawagama, Wariyapola</span></span>
                 </div>
             </div>
         </section>
