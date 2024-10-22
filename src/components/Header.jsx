@@ -37,9 +37,9 @@ const Header = () => {
 
         {/* Navigation Links */}
         <ul
-          className={`flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-6 mt-4 md:mt-0 uppercase font-semibold text-sm sm:text-base md:text-lg lg:text-xl transition-all duration-500 ease-in-out ${
+          className={`${
             isMenuOpen ? 'block' : 'hidden'
-          } md:flex`}
+          } md:flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-6 mt-4 md:mt-0 uppercase font-semibold text-sm sm:text-base md:text-lg lg:text-xl transition-all duration-500 ease-in-out`}
         >
           <li>
             <a
