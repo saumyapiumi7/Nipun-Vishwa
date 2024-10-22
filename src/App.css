@@ -61,3 +61,28 @@
     display: flex; /* Show the menu list on larger screens */
   }
 }
+
+/* Font Styles */
+.font-arial {
+  font-family: 'Arial', sans-serif;
+}
+
+.font-georgia {
+  font-family: 'Georgia', serif;
+}
+
+.font-blue {
+  color: #007bff; /* Blue color for headings */
+}
+
+.font-large {
+  font-size: 2.5rem; /* Main heading size */
+}
+
+.font-medium {
+  font-size: 1.25rem; /* Medium text size */
+}
+
+.font-small {
+  font-size: 1rem; /* Small text size */
+}

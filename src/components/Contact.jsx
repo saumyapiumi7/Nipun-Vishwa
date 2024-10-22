@@ -3,7 +3,7 @@ import { FaPhone, FaEnvelope, FaLinkedin, FaMapMarkerAlt } from 'react-icons/fa'
 
 const Contact = () => {
     return (
-        <section id="contact" className="bg-gray-100 text-darkGray py-12 px-6">
+        <section id="contact" className="bg-lightGray text-darkGray py-12 px-6 mb-12">
             <h2 className="text-5xl font-extrabold text-navyBlue text-center mb-10">Contact Me</h2>
             <div className="flex flex-col items-center max-w-3xl mx-auto space-y-6">
                 {/* Contact Card */}
